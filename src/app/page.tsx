@@ -7,8 +7,8 @@ import ArticleList from '@/components/ArticleList'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'GitBase - Open Source Dynamic Website CMS Without Database',
-  description: 'A Next.js site with Tailwind & Shadcn/UI, using GitHub API for content management. No database needed for dynamic updates.',
+  title: 'hDataAIPhonexi 凌智凤的博客',
+  description: '凌智凤的个人技术博客 - 分享AI、数据科学与全栈开发的心得体会',
 }
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
         </h1>
         <h2 className="text-2xl tracking-tighter sm:text-3xl md:text-3xl lg:text-3xl">Open Source Dynamic Website CMS Without Database</h2>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-          GitBase is a dynamic, database-free website built with Next.js, Tailwind CSS, and Shadcn/UI, featuring a content management system powered by the GitHub API for seamless updates and administration.
+          欢迎来到我的个人技术博客！这里将分享关于人工智能、数据科学、全栈开发等领域的技术文章和经验总结。
         </p>
       </section>
 
