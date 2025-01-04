@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">About</h3>
             <p className="mt-4 text-base text-gray-500">
-              GitBase is an open-source dynamic website solution without a traditional database, built with Next.js and powered by GitHub.
+            DataAIPhoenix，欢迎来到我的个人技术博客！这里将分享关于人工智能、数据科学、全栈开发等领域的技术文章和经验总结。
             </p>
           </div>
           <div>
@@ -36,20 +36,11 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">Connect</h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <a href="https://gitbase.app/" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
-                  GitBase
+                <a href="https://x.com/DataAIPhoenix" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
+                Twitter
                 </a>
               </li>
-              <li>
-                <a href="https://github.com/qiayue/gitbase" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
-                  GitHub
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/gefei55" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
-                  Twitter
-                </a>
-              </li>
+          
             </ul>
           </div>
         </div>
