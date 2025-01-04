@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  const resourcesPath = path.join(process.cwd(), 'data', 'json', 'resources.json')
-  const resources = JSON.parse(fs.readFileSync(resourcesPath, 'utf8'))
+  // const resourcesPath = path.join(process.cwd(), 'data', 'json', 'resources.json')
+  // const resources = JSON.parse(fs.readFileSync(resourcesPath, 'utf8'))
   const allPostsData = getSortedPostsData().slice(0, 6)
 
   return (
@@ -23,8 +23,12 @@ export default function Home() {
           DataAIPhonexi 凌智凤的博客
         </h1>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-          欢迎来到我的个人技术博客！这里将分享关于人工智能、数据科学、全栈开发等领域的技术文章和经验总结。
+          欢迎来到我的个人技术博客！
         </p>
+        <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
+         这里将分享关于人工智能、数据科学、全栈开发等领域的技术文章和经验总结。
+        </p>
+
       </section>
 
       <ResourceList resources={resources} />
