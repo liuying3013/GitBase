@@ -7,7 +7,7 @@ import ArticleList from '@/components/ArticleList'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'DataAIPhonexi 凌智凤的博客',
+  title: 'DataAIPhoenix 凌智凤的博客',
   description: '凌智凤的个人技术博客 - 分享AI、数据科学与全栈开发的心得体会',
 }
 
@@ -20,7 +20,7 @@ export default function Home() {
     <div className="container mx-auto py-12 space-y-16">
       <section className="text-center space-y-4">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-          DataAIPhoneix 凌智凤的博客
+         DataAIPhoenix 凌智凤的博客
         </h1>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
           欢迎来到我的个人技术博客！
