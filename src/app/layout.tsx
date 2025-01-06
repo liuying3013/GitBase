@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: {
     default: 'DataAIPhoenix',
-    template: '%s | DataAIPhoneix'
+    template: '%s | DataAIPhoenix'
   },
   description: 'AI出海践行者',
 }
